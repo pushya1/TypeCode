@@ -11,7 +11,7 @@ Welcome to the Code Typing Website! This project is designed to help users impro
 
 ## Demo
 
-[Link to live demo](https://your-website-url.com](https://type-code-seven.vercel.app/))
+[Link to live demo](https://your-website-url.com](https://type-code-seven.vercel.app/)
 
 ## Installation
 
