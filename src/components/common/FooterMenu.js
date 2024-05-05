@@ -15,7 +15,6 @@ import {
   GAME_MODE_DEFAULT,
   GAME_MODE_SENTENCE,
   TRAINER_MODE,
-  WORDS_CARD_MODE
 } from "../../constants/Constants";
 import { Link } from "@mui/material";
 import {
@@ -28,7 +27,6 @@ import KeyboardAltIcon from "@mui/icons-material/KeyboardAlt";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import EmojiFoodBeverageIcon from "@mui/icons-material/EmojiFoodBeverage";
 import KeyboardAltOutlinedIcon from '@mui/icons-material/KeyboardAltOutlined';
-import SchoolIcon from '@mui/icons-material/School';
 import { SOUND_MODE_TOOLTIP } from "../features/sound/sound";
 
 const FooterMenu = ({
@@ -108,17 +106,7 @@ const FooterMenu = ({
             onChange={handleSoundTypeChange}
             menuPlacement="top"
           ></Select>)}
-          <IconButton onClick={toggleWordsCardMode}>
-            <Tooltip
-              title={
-                <span style={{ whiteSpace: "pre-line" }}>{WORDS_CARD_MODE}</span>
-              }
-            >
-              <span className={getModeButtonClassName(isWordsCardMode)}>
-                <SchoolIcon fontSize="medium"></SchoolIcon>
-              </span>
-            </Tooltip>
-          </IconButton>
+          
           <IconButton onClick={toggleCoffeeMode}>
             <Tooltip
               title={
