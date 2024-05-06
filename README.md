@@ -1,6 +1,3 @@
-Sure, here's a template for a README file for your React code typing website on GitHub:
-
----
 
 # Code Typing Website
 
